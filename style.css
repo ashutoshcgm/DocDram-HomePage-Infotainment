@@ -1,0 +1,344 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+}
+
+#h1:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+#b1:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+#o1:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+#s1:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+#s2:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+#s3:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+#sp1:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+#sp2:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+#sp3:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+#docdram:hover {
+    color: rgb(111, 162, 255);
+}
+
+#offcanvasNavbarLabel {
+    color: rgb(40, 161, 147)
+}
+
+#offcanvasNavbar {
+    background-color: rgb(0, 0, 0);
+}
+
+#movies {
+    background-color: rgb(0, 0, 0);
+}
+
+#songs {
+    background-color: rgb(0, 0, 0);
+}
+
+#sports {
+    background-color: rgb(0, 0, 0);
+}
+
+#close {
+    background-color: rgb(17, 125, 197);
+}
+
+#navbarhai {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1020;
+}
+
+#head1 {
+    text-align: center;
+    color: deepskyblue;
+}
+
+.movies {
+    margin: 7px;
+    margin-top: 15px;
+    padding-top: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    background-color: rgb(87, 84, 84);
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#moviesection {
+    background: rgb(9, 121, 116);
+    background: linear-gradient(90deg, rgba(9, 121, 116, 1) 0%, rgba(9, 96, 121, 1) 37%, rgba(108, 9, 121, 1) 100%);
+    border: 2px solid rgb(149, 20, 214);
+}
+
+#trendmovie {
+    border-radius: 4px;
+    display: block;
+    list-style: armenian;
+    font-family: monospace;
+}
+
+.moviehover:hover {
+    color: rgb(236, 35, 166);
+}
+
+.movieheader {
+    color: rgb(236, 35, 166);
+    text-align: start;
+
+}
+
+.movietrendpara {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.songs {
+    margin: 7px;
+    margin-top: 15px;
+    padding-top: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    background-color: rgb(87, 84, 84);
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#songsection {
+    background: rgb(9, 121, 106);
+    background: linear-gradient(90deg, rgba(9, 121, 106, 1) 0%, rgba(100, 121, 9, 1) 37%, rgba(121, 120, 9, 1) 100%);
+    border: 2px solid rgb(15, 172, 196);
+}
+
+#trendsong {
+    border-radius: 4px;
+    display: block;
+    list-style: georgian;
+    font-family: monospace;
+}
+
+.songhover:hover {
+    color: rgb(30, 182, 116);
+}
+
+.songheader {
+    color: rgb(19, 213, 129);
+    text-align: start;
+
+}
+
+.songtrendpara {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.sports {
+    margin: 7px;
+    margin-top: 15px;
+    padding-top: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    background-color: rgb(87, 84, 84);
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#sportssection {
+    background: rgb(122, 41, 14);
+    background: linear-gradient(90deg, rgba(122, 41, 14, 1) 1%, rgba(244, 145, 53, 1) 54%, rgba(10, 149, 84, 1) 100%);
+    border: 2px solid rgb(235, 111, 16);
+}
+
+#trendsports {
+    border-radius: 4px;
+    display: block;
+    list-style: armenian;
+    font-family: monospace;
+}
+
+.sportshover:hover {
+    color: rgb(248, 224, 16);
+}
+
+.sportsheader {
+    color: rgb(253, 229, 12);
+    text-align: start;
+
+}
+
+.sportstrendpara {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#changeHover3:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    color: rgb(248, 224, 16);
+}
+
+#changeHover3 {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(230, 220, 160);
+}
+
+#changeHover2:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    color: rgb(19, 213, 129);
+}
+
+#changeHover2 {
+    text-decoration: none;
+    font-size: 18px;
+    color: aquamarine
+}
+
+#changeHover1:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    color: rgb(236, 35, 166);
+}
+
+#changeHover1 {
+    text-decoration: none;
+    font-size: 18px;
+    color: fuchsia;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,400&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-family: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    color: #12cdded7;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+
+.footer-col .social-links a:hover {
+    color: #e87a0d;
+    background-color: #000000
+}
+
+@media(max-width:767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:574px) {
+    .footer-col {
+        width: 100%;
+    }
+}

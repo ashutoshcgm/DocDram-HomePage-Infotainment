@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocDram:Infotainment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top" id="navbarhai">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="docdram">DocDram</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DocDram</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"
+                        id="close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color:rgb(44, 155, 161);">Home</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#" style="color:rgb(44, 155, 161);">Movies</a>
+                        </li>
+                         -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(67, 125, 212);">
+                                <i class="fa-solid fa-video"></i> Movies
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown" id="movies">
+                                <li><a class="dropdown-item"
+                                        href="https://ashutoshcgm.github.io/Movie-Website/bollywood.html"
+                                        style="color:rgb(182, 26, 127);" id="b1"><i class="bi bi-camera-fill"></i>
+                                        BollyWood</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ashutoshcgm.github.io/Movie-Website/hollywood.html"
+                                        style="color:rgb(182, 26, 127);" id="h1"><i class="bi bi-camera2"></i>
+                                        Hollywood</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ashutoshcgm.github.io/Movie-Website/otherMovies.html"
+                                        style="color:rgb(182, 26, 127);" id="o1"><i class="bi bi-camera-reels"></i>
+                                        Others</a></li>
+                                <!-- <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#" style="color:rgb(16, 125, 78);">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#" style="color:rgb(44, 155, 161);">Songs</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(67, 125, 212);">
+                                <i class="fas fa-music"></i> Songs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown" id="songs">
+                                <li><a class="dropdown-item" href="https://ashutoshcgm.github.io/HindiMusicPlayer/"
+                                        style="color:rgb(30, 182, 116);" id="s1"><i class="bi bi-file-music"></i>
+                                        Hindi</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://ashutoshcgm.github.io/PunjabiMusic/"
+                                        style="color:rgb(30, 182, 116);" id="s2"><i class="bi bi-file-earmark-play"></i>
+                                        Punjabi</a></li>
+                                <li><a class="dropdown-item" href="https://ashutoshcgm.github.io/English-Music/"
+                                        style="color:rgb(30, 182, 116)" id="s3"><i class="bi bi-disc"></i> English</a>
+                                </li>
+                                <!-- <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#" style="color:rgb(16, 125, 78);">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#" style="color:rgb(44, 155, 161);">Sports</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(67, 125, 212);"><i
+                                    class="bi bi-newspaper"></i>
+                                News
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown" id="sports">
+                                <li><a class="dropdown-item" href="#sp1" style="color:rgb(205, 189, 44);" id="sp1"><i
+                                            class="bi bi-briefcase-fill"></i></span> Business</a></li>
+                                <li><a class="dropdown-item" href="#sp2" style="color:rgb(205, 189, 44);" id="sp2"><i
+                                            class="fas fa-running"></i> Sports</a></li>
+                                <li><a class="dropdown-item" href="#sp3" style="color:rgb(205, 189, 44);" id="sp3"><i
+                                            class="bi bi-motherboard"></i> Technology</a></li>
+                                <!-- <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#" style="color:rgb(16, 125, 78);">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <h1 class="display-5" id="head1">Welcome to DocDram</h1>
+    <div class="movies" id="moviesection">
+        <h5 class="movieheader">Movies</h5>
+        Most Anticipated New Movies and Shows
+        Discover the most anticipated Movies on real-time popularity.Watch full Trending Movies on online anytime &
+        anywhere on DocDram.
+        <br>
+        <br>
+        <p class="movietrendpara">
+            Trending Movies
+        </p>
+        <ul id="trendmovie">
+            <li class="moviehover">Doctor Strange in the Multiverse of Madness</li>
+            <li class="moviehover">K.G.F: Chapter 2</li>
+            <li class="moviehover">The Batman</li>
+            <li class="moviehover">RRR</li>
+            <li class="moviehover">Runway 34</li>
+        </ul>
+        <a href="https://ashutoshcgm.github.io/Movie-Website/" class="link-danger" id="changeHover1"><i
+                class="bi bi-box-arrow-right"></i> All Movies</a>
+    </div>
+
+    <div class="songs" id="songsection">
+        <h5 class="songheader">Songs</h5>
+        Play Trending Tunes On our musicplayer with songs like Kabhi Tumhe & Titliaan. Play songs online for free or
+        download mp3 and Listen to offline on DocDram.
+        <br>
+        <br>
+        <p class="songtrendpara">
+            Trending Songs
+        </p>
+        <ul id="trendsong">
+            <li class="songhover">Kabhi tumhe</li>
+            <li class="songhover">Patola</li>
+            <li class="songhover">Sakhiyan 2.0</li>
+            <li class="songhover">Bad Blood</li>
+            <li class="songhover">Love Yourself</li>
+        </ul>
+        <a href="https://ashutoshcgm.github.io/MusicPlayerHomePage/" class="link-warning" id="changeHover2"><i
+                class="bi bi-box-arrow-right"></i>All Songs</a>
+    </div>
+
+    <div class="sports" id="sportssection">
+        <h5 class="sportsheader">News</h5>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis maiores magnam temporibus similique? Magnam
+        reiciendis est reprehenderit dolorem tempore ullam ut exercitationem dolores ex fugiat, sint architecto odio
+        ipsam. Recusandae dolorum eius a pariatur fuga, molestiae earum dolorem autem optio? Voluptatibus nemo veniam
+        ratione dolorum sequi velit quas ipsum et.
+        <br>
+        <br>
+        <p class="sportstrendpara">
+            Trending News
+        </p>
+        <ul id="trendsports">
+            <li class="sportshover">An item</li>
+            <li class="sportshover">A second item</li>
+            <li class="sportshover">A third item</li>
+            <li class="sportshover">A fourth item</li>
+            <li class="sportshover">And a fifth one</li>
+        </ul>
+        <a href="Doc News/DocDram-News.html" class="link-info" id="changeHover3"><i class="bi bi-box-arrow-right"></i>
+            All News</a>
+    </div>
+    <div class="container-fluid m-0 p-0">
+        <div>
+            <div class="row m-3" id="newsType"></div>
+            <div class="row me-2 ms-2" id="newsDetails"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4><i class="fa-solid fa-building"></i> Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="https://ashutoshcgm.github.io/contact.html" target="_blank">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><i class="fa-solid fa-magnifying-glass-plus"></i> Go to</h4>
+                    <ul>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">Songs</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><i class="fa-solid fa-angles-right"></i> Extra</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Rate Movie & Give Review</a></li>
+                        <li><a href="#" target="_blank">Tourism in INDIA</a></li>
+                        <li><a href="#">Get Help</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><i class="fa-solid fa-link"></i> Follow Us</h4>
+                    <ul>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://mobile.twitter.com/ashutosh_cgm" target="_blank"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/ashutosh_cgm" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/imsashutoshsingh" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
